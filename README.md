@@ -9,6 +9,6 @@ Usage
 For now just use
 
 ```sh
-docker build -t dvberkel.nl
-docker run --name website -p80:80 -d dvberkel.nl
+docker build -t dvberkel.nl .
+docker run --name website -p 80:80 -d dvberkel.nl
 ```
