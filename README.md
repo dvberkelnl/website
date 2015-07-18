@@ -1,7 +1,7 @@
 Website
 =======
 
-A docker container for my website.
+A [Docker][docker] container for my website.
 
 Usage
 -----
@@ -14,5 +14,6 @@ instructions.
 docker-compose up
 ```
 
+[docker]: https://www.docker.com/
 [docker-compose]: https://docs.docker.com/compose/
 [docker-compose-installation]: https://docs.docker.com/compose/install/
