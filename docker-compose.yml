@@ -3,4 +3,4 @@ web:
   ports:
     - "80:80"
   volumes:
-    - web:/usr/share/nginx/html
+    - website:/usr/share/nginx/html
