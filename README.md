@@ -11,7 +11,7 @@ We rely on [docker-compose][]. See the
 instructions.
 
 ```sh
-docker-compose up
+docker-compose up -d
 ```
 
 [docker]: https://www.docker.com/
