@@ -13,7 +13,7 @@ docker build -t website_web
 The docker container for the website can be run with the following command:
 
 ```shell
-docker run -d -p 8080:80 --name web -v $PWD/www:/usr/share/nginx/html website_web
+docker run -d -p 8080:80 --name web -v $PWD/www:/data/www website_web
 ```
 
 Make sure to substitute `$PWD` for the absolute path of your working directory.
